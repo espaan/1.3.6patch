@@ -20,6 +20,8 @@ issue #775 https://github.com/zikula/core/commit/1fab5ec3e959b6905ce1bb7f044662f
 
 The patch from 1.3.5 to 1.3.6: https://github.com/zikula/core/compare/1.3.5...1.3.6.patch
 
+issue #783 https://github.com/nmpetkov/core/blob/6b4ca8df72f2b46d1ef3995b2866f8b41b55a3ef/src/userdata/.htaccess allowing jpeg
+
 
 
 
