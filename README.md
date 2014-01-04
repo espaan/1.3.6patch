@@ -1,5 +1,7 @@
 1.3.6patch
 ==========
+This patch is coming as it is with no support and no warranty! I create this collection for my own usage. Feel free to try on your site. Do not forget the backup ;-)
+==========
 
 This is a patch collection of usefull fixes for 1.3.6
 
@@ -13,4 +15,11 @@ Attention! you have to delete the file \lib\Zikula\Form\Plugin\PostbackFunction.
 
 issues #516 / #938 https://gist.github.com/rallek/8196013 repairing the block filtering
 
-This patch is coming as it is with no support and no warranty! I create this collection for my own usage. Feel free to try on your site. Do not forget the backup ;-)
+
+issue #775 https://github.com/zikula/core/commit/1fab5ec3e959b6905ce1bb7f044662f9eebd14b0 a small css fix for displaying selection boxes
+
+The patch from 1.3.5 to 1.3.6: https://github.com/zikula/core/compare/1.3.5...1.3.6.patch
+
+
+
+
