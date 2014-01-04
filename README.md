@@ -10,8 +10,8 @@ issue #704 https://github.com/zikula/core/pull/704/files needed for MOST-Modules
 
 issue #924 https://gist.github.com/cmfcmf/6329308 drag and drop fix for extmenu
 
-issue #916 https://github.com/zikula/core/issues/916 Fatal error: Class 'Zikula_Form_Plugin_PostBackFunction' not found in ...
-Attention! you have to delete the file \lib\Zikula\Form\Plugin\PostbackFunction.php (a Typo in the filename!)
+issue #916 https://github.com/zikula/core/issues/916 `Fatal error: Class 'Zikula_Form_Plugin_PostBackFunction' not found in ...`
+Attention! you have to delete the file `\lib\Zikula\Form\Plugin\PostbackFunction.php` (a Typo in the filename!)
 
 issues #516 / #938 https://gist.github.com/rallek/8196013 repairing the block filtering
 
