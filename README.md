@@ -13,4 +13,4 @@ Attention! you have to delete the file \lib\Zikula\Form\Plugin\PostbackFunction.
 
 issues #516 / #938 https://gist.github.com/rallek/8196013 repairing the block filtering
 
-This patch is coming as it is with no support and no guaranty! I create this collection for my own usage. Feel free to try on your site. Do not forget the backup ;-)
+This patch is coming as it is with no support and no warranty! I create this collection for my own usage. Feel free to try on your site. Do not forget the backup ;-)
