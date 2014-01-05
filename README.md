@@ -22,6 +22,8 @@ The patch from 1.3.5 to 1.3.6: https://github.com/zikula/core/compare/1.3.5...1.
 
 issue #783 https://github.com/nmpetkov/core/blob/6b4ca8df72f2b46d1ef3995b2866f8b41b55a3ef/src/userdata/.htaccess allowing jpeg
 
+added patches from https://github.com/rallek/core/commit/d7a698e8248a048d31d33ba650917d7582aae204 and https://github.com/rallek/core/commit/77fcffb09df1b4dec657527e4c3e32c0851ec305 of https://github.com/jguille2
+
 
 
 
