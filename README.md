@@ -1,7 +1,7 @@
 1.3.6patch
 ==========
 This patch is coming as it is with no support and no warranty! I create this collection for my own usage. Feel free to try on your site. Do not forget the backup ;-)
-==========
+
 
 This is a patch collection of usefull fixes for 1.3.6
 
