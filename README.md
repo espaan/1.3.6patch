@@ -24,7 +24,7 @@ issue #783 https://github.com/nmpetkov/core/blob/6b4ca8df72f2b46d1ef3995b2866f8b
 
 added patches https://github.com/zikula/core/pull/1511 and https://github.com/zikula/core/issues/1486 of https://github.com/jguille2
 
-issue #1561 avoid flush by category selection  see https://github.com/Guite/MostGenerator/issues/464#issuecomment-32368822
+issue #1561 avoid flush by category selection  see https://github.com/Guite/MostGenerator/issues/464#issuecomment-32368822. This might cause trouble by using non doctrine modules!
 
 
 
