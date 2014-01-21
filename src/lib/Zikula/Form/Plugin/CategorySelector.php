@@ -69,11 +69,11 @@ class Zikula_Form_Plugin_CategorySelector extends Zikula_Form_Plugin_DropdownLis
      * @var boolean (default false)
      */
     public $enableDoctrine;
-    
+
     public $doctrine2;
-    
+
     public $registryId;
-    
+
 
     /**
      * Get filename of this file.
@@ -246,18 +246,26 @@ class Zikula_Form_Plugin_CategorySelector extends Zikula_Form_Plugin_DropdownLis
                    ->setFieldValue($entity, $this->dataField, $collection);
             }
 
-            
+
             if(is_array($this->getSelectedValue())) {
                 $selectedValues = $this->getSelectedValue();
             } else {
                 $selectedValues[] = $this->getSelectedValue();
             }
-                
-           foreach ($collection->getKeys() as $key) {
-               $categoryId = $collection->get($key)->getCategoryRegistryId();
-               if ($categoryId == $this->registryId) {
-                    $collection->remove($key);
-               }
+            $selectedValues = array_combine($selectedValues, $selectedValues);
+
+            foreach ($collection->getKeys() as $key) {
+                $entityCategory = $collection->get($key);
+
+                if ($entityCategory->getCategoryRegistryId() == $this->registryId) {
+                    $categoryId = $entityCategory->getCategory()->getId();
+
+                    if (isset($selectedValues[$categoryId])) {
+                        unset($selectedValues[$categoryId]);
+                    } else {
+                        $collection->remove($key);
+                    }
+                }
             }
 
             // we do NOT flush here, as the calling module is responsible for that (Guite)
@@ -338,7 +346,7 @@ class Zikula_Form_Plugin_CategorySelector extends Zikula_Form_Plugin_DropdownLis
                     }
                 }
             }
-            
+
             if ($items != null) {
                 $this->setItems($items);
             }
